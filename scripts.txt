@@ -1,0 +1,12 @@
+gutenbergtrindade25@gmail.com
+
+Gutenberg25.
+
+CREATE TABLE alunos(
+nome varchar(255) NOT NULL,
+matricula varchar(255) NOT NULL,
+data_nascimento date,
+PRIMARY KEY (matricula)
+);
+
+INSERT INTO alunos values('Iasmin', 'abc123', '1994-07-01'), ('Nicolas', 'aabb1234', '2020-02-11');
